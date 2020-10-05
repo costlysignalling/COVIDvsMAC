@@ -8,6 +8,7 @@ Intentions to cooperate (i.e. to minimize infection) were predicted by two under
 Raw data exported from Qualtrics are stored in QexportUSA.csv and QexportIndia.csv files.
 
 **You can track the preprint at:**\
+TBA
 
 **How to run the code:**\
 You should initiate the session from the corona.Rproj and start perhaps from *01_data_prepare.R* (if you are interested how the raw data are handeled) or directly from the evaluation of structural Bayesian model: *02_analysis_single_estimate.R* or similar that directly sources the cleaned data. Than build your way up thhrough the scripts that summarize and visualize the results. We used rethinking packege with STAN infrastructure, so make sure all neccesary elements are properly installed on your computer. See https://github.com/rmcelreath/rethinking for details about the package and installation. Custom-build functions for data visualizations are stored in a separate scripts (03_...), details (colours, positions) on posetrior visualizations are stored in params....txt files.
